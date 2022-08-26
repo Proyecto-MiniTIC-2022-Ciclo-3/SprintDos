@@ -46,11 +46,7 @@ public class MovimientoDeDinero {
 
     @Override
     public String toString() {
-        return "MovimientoDeDinero{" +
-                "montomovimiento=" + montomovimiento +
-                ", tipomovimiento='" + tipomovimiento + '\'' +
-                ", conceptomovimiento='" + conceptomovimiento + '\'' +
-                ", encargadomovimiento='" + encargadomovimiento + '\'' +
-                '}';
+        return "Movimientos de dinero" + "\n" + "Monto del movimiento: " + montomovimiento + "\n"+ "tipomovimiento: " + tipomovimiento + "\n" +
+                "Concepto del movimiento: " + conceptomovimiento + "\n" + "Encargado del movimiento: " + encargadomovimiento + "\n";
     }
 }

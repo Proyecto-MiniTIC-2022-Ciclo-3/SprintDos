@@ -47,11 +47,7 @@ public class Empleado  {
 
     @Override
     public String toString() {
-        return "Empleado{" +
-                "nombreempleado='" + nombreempleado + '\'' +
-                ", correoempleado='" + correoempleado + '\'' +
-                ", empresaempleado='" + empresaempleado + '\'' +
-                ", rol='" + rol + '\'' +
-                '}';
+        return "Los datos ingresados del Empleado son:" + "\n" + "Nombre empleado: " + nombreempleado + "\n" + "Correo empleado: " + correoempleado + "\n" +
+                "Empresa empleado:" + empresaempleado + "\n" + "Rol: " + rol + "\n";
     }
 }

@@ -52,8 +52,8 @@ public class Empresa {
 
     @Override
     public String toString() {
-        return "Los datos ingresados de la Empresa son: " + "Nombre de la empresa:" + nombre + ", Direccion de la empresa:" + direccion +
-                ", Numero de la empresa:" + numero + ", NIT de la empresa=" + nit;
+        return "Los datos ingresados de la Empresa son: " + "\n" + "Nombre de la empresa: " + nombre + "\n" + "Direccion de la empresa: " + direccion + "\n"
+                + "Numero de la empresa: " + numero + "\n" + "NIT de la empresa: " + nit + "\n";
     }
 }
 
