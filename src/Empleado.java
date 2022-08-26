@@ -1,10 +1,57 @@
 public class Empleado  {
 
-    private String nombreemple;
-    private String correoemple;
-    private String empresa;
+    private String nombreempleado;
+    private String correoempleado;
+    private String empresaempleado;
     private String rol;
 
+    public Empleado( String nombreempleado, String correoempleado, String empresaempleado, String rol) {
 
+        this.nombreempleado = nombreempleado;
+        this.correoempleado = correoempleado;
+        this.empresaempleado = empresaempleado;
+        this.rol = rol;
+    }
 
+    public String getNombreempleado() {
+        return nombreempleado;
+    }
+
+    public void setNombreempleado(String nombreempleado) {
+        this.nombreempleado = nombreempleado;
+    }
+
+    public String getCorreoempleado() {
+        return correoempleado;
+    }
+
+    public void setCorreoempleado(String correoempleado) {
+        this.correoempleado = correoempleado;
+    }
+
+    public String getEmpresaempleado() {
+        return empresaempleado;
+    }
+
+    public void setEmpresaempleado(String empresaempleado) {
+        this.empresaempleado = empresaempleado;
+    }
+
+    public String getRol() {
+        return rol;
+    }
+
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "nombreempleado='" + nombreempleado + '\'' +
+                ", correoempleado='" + correoempleado + '\'' +
+                ", empresaempleado='" + empresaempleado + '\'' +
+                ", rol='" + rol + '\'' +
+                '}';
+    }
 }

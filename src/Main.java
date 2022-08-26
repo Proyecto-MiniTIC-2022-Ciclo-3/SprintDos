@@ -3,22 +3,48 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 
-        Empresa empre = new Empresa();
+        Empresa empresa = new Empresa("Lolitas","Calle 48 sur",123,123456);
 
-        empre.Leerdatos();
-        empre.modificar();
+        System.out.println(empresa);
 
-        System.out.println(empre);
+        empresa.setNombre("TripleAAA");
+        empresa.setDireccion("diagonal 32");
+        empresa.setNumero(5101002);
+        empresa.setNit(64567);
+
+        System.out.println("Datos modificados");
+
+        System.out.println(empresa);
+
+        System.out.println("");
+        System.out.println("Datos del empleado");
+
+        Empleado empleado = new Empleado("Stiven","Stiven@hotmail.com","lolitas","Administrador");
+        System.out.println(empleado);
+
+        System.out.println("Datos modificados empleado");
+
+        empleado.setNombreempleado("Brayan");
+        empleado.setCorreoempleado("brayan@gmail.com");
+        empleado.setEmpresaempleado("TripleAAA");
+        empleado.setRol("Operativo");
+        System.out.println(empleado);
+        System.out.println("");
+
+
+        MovimientoDeDinero md = new MovimientoDeDinero(1000000,"Negativo","pago servicios","Stiven");
+        System.out.println("Datos del movimiento de dinero");
+        System.out.println(md);
+        System.out.println("Datos modificados del movimiento de dinero");
+        md.setMontomovimiento(300000);
+        md.setTipomovimiento("Positivo");
+        md.setConceptomovimiento("venta de muebles");
+        md.setEncargadomovimiento("Brayan");
+        System.out.println(md);
 
 
 
 
-
-
-        //JOptionPane.showMessageDialog(null,"Desea modificar los datos");
-
-        //empre.setNombre(JOptionPane.showInputDialog("Digite el nombre de la empresa: "));
-        //System.out.println("El nombre de la empresa es: " + empre.setDireccion());
 
 
 

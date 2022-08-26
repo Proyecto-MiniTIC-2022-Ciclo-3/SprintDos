@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9155a84a-b12d-4b7d-9646-5f9c18a7c56e" name="Changes" comment="Adelanto del Sprint dos">
-      <change afterPath="$PROJECT_DIR$/src/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MovimientoDeDinero.java" afterDir="false" />
+    <list default="true" id="9155a84a-b12d-4b7d-9646-5f9c18a7c56e" name="Changes" comment="Clases creadas empleado y movimientos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MovimientoDeDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovimientoDeDinero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661308119314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Clases creadas empleado y movimientos">
+      <created>1661393694531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661393694531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adelanto del Sprint dos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adelanto del Sprint dos" />
+    <MESSAGE value="Clases creadas empleado y movimientos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clases creadas empleado y movimientos" />
   </component>
 </project>
