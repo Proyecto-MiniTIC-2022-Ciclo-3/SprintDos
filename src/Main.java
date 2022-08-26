@@ -43,14 +43,5 @@ public class Main {
 
         System.out.println("Datos modificados del movimiento de dinero" + "\n" + md);
 
-
-
-
-
-
-
-
-
-
     }
 }
