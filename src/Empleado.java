@@ -12,6 +12,9 @@ public class Empleado  {
         this.rol = rol;
     }
 
+    public Empleado() {
+    }
+
     public String getNombreempleado() {
         return nombreempleado;
     }

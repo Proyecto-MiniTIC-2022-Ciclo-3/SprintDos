@@ -12,6 +12,9 @@ public class MovimientoDeDinero {
         this.encargadomovimiento = encargadomovimiento;
     }
 
+    public MovimientoDeDinero() {
+    }
+
     public float getMontomovimiento() {
         return montomovimiento;
     }
