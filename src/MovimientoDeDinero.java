@@ -3,9 +3,9 @@ public class MovimientoDeDinero {
     private float montomovimiento;
     private String tipomovimiento;
     private String conceptomovimiento;
-    private String encargadomovimiento;
+    private Empleado encargadomovimiento;
 
-    public MovimientoDeDinero(float montomovimiento, String tipomovimiento, String conceptomovimiento, String encargadomovimiento) {
+    public MovimientoDeDinero(float montomovimiento, String tipomovimiento, String conceptomovimiento, Empleado encargadomovimiento) {
         this.montomovimiento = montomovimiento;
         this.tipomovimiento = tipomovimiento;
         this.conceptomovimiento = conceptomovimiento;
@@ -36,11 +36,11 @@ public class MovimientoDeDinero {
         this.conceptomovimiento = conceptomovimiento;
     }
 
-    public String getEncargadomovimiento() {
+    public Empleado getEncargadomovimiento() {
         return encargadomovimiento;
     }
 
-    public void setEncargadomovimiento(String encargadomovimiento) {
+    public void setEncargadomovimiento(Empleado encargadomovimiento) {
         this.encargadomovimiento = encargadomovimiento;
     }
 

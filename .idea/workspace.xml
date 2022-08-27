@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9155a84a-b12d-4b7d-9646-5f9c18a7c56e" name="Changes" comment="Clases terminadas con lectura y modificación">
+    <list default="true" id="9155a84a-b12d-4b7d-9646-5f9c18a7c56e" name="Changes" comment="Impresiones arregladas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa.java" afterDir="false" />
@@ -84,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661480512357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Impresiones arregladas">
+      <created>1661483768406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661483768406</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Impresiones arregladas">
+      <created>1661483807573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661483807573</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +116,7 @@
     <MESSAGE value="Adelanto del Sprint dos" />
     <MESSAGE value="Clases creadas empleado y movimientos" />
     <MESSAGE value="Clases terminadas con lectura y modificación" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clases terminadas con lectura y modificación" />
+    <MESSAGE value="Impresiones arregladas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Impresiones arregladas" />
   </component>
 </project>

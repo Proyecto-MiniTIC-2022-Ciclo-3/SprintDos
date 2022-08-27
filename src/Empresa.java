@@ -15,6 +15,7 @@ public class Empresa {
     }
 
     public String getNombre() {
+
         return nombre;
     }
 
@@ -24,6 +25,7 @@ public class Empresa {
     }
 
     public String getDireccion() {
+
         return direccion;
     }
 

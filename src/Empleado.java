@@ -2,11 +2,10 @@ public class Empleado  {
 
     private String nombreempleado;
     private String correoempleado;
-    private String empresaempleado;
+    private Empresa empresaempleado;
     private String rol;
 
-    public Empleado( String nombreempleado, String correoempleado, String empresaempleado, String rol) {
-
+    public Empleado(String nombreempleado, String correoempleado, Empresa empresaempleado, String rol) {
         this.nombreempleado = nombreempleado;
         this.correoempleado = correoempleado;
         this.empresaempleado = empresaempleado;
@@ -29,11 +28,11 @@ public class Empleado  {
         this.correoempleado = correoempleado;
     }
 
-    public String getEmpresaempleado() {
+    public Empresa getEmpresaempleado() {
         return empresaempleado;
     }
 
-    public void setEmpresaempleado(String empresaempleado) {
+    public void setEmpresaempleado(Empresa empresaempleado) {
         this.empresaempleado = empresaempleado;
     }
 
@@ -48,6 +47,6 @@ public class Empleado  {
     @Override
     public String toString() {
         return "Los datos ingresados del Empleado son:" + "\n" + "Nombre empleado: " + nombreempleado + "\n" + "Correo empleado: " + correoempleado + "\n" +
-                "Empresa empleado:" + empresaempleado + "\n" + "Rol: " + rol + "\n";
+                "Empresa empleado:" + "\n" + empresaempleado + "Rol: " + rol + "\n";
     }
 }
