@@ -2,57 +2,57 @@ import javax.swing.*;
 
 public class Empresa {
 
-    private String nombre;
-    private String direccion;
-    private int numero;
-    private int nit;
+    private String nombreEmpresa;
+    private String direccionEmpresa;
+    private int numeroEmpresa;
+    private int nitEmpresa;
 
     public Empresa(String nombre, String direccion, int numero, int nit) {
-        this.nombre = nombre;
-        this.direccion = direccion;
-        this.numero = numero;
-        this.nit = nit;
+        this.nombreEmpresa = nombre;
+        this.direccionEmpresa = direccion;
+        this.numeroEmpresa = numero;
+        this.nitEmpresa = nit;
     }
 
     public Empresa() {
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombreEmpresa() {
+        return nombreEmpresa;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombreEmpresa(String nombreEmpresa) {
+        this.nombreEmpresa = nombreEmpresa;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public String getDireccionEmpresa() {
+        return direccionEmpresa;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setDireccionEmpresa(String direccionEmpresa) {
+        this.direccionEmpresa = direccionEmpresa;
     }
 
-    public int getNumero() {
-        return numero;
+    public int getNumeroEmpresa() {
+        return numeroEmpresa;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public void setNumeroEmpresa(int numeroEmpresa) {
+        this.numeroEmpresa = numeroEmpresa;
     }
 
-    public int getNit() {
-        return nit;
+    public int getNitEmpresa() {
+        return nitEmpresa;
     }
 
-    public void setNit(int nit) {
-        this.nit = nit;
+    public void setNitEmpresa(int nitEmpresa) {
+        this.nitEmpresa = nitEmpresa;
     }
 
     @Override
     public String toString() {
-        return "Los datos ingresados de la Empresa son: " + "\n" + "Nombre de la empresa: " + nombre + "\n" + "Direccion de la empresa: " + direccion + "\n"
-                + "Numero de la empresa: " + numero + "\n" + "NIT de la empresa: " + nit + "\n";
+        return "Los datos ingresados de la Empresa son: " + "\n" + "Nombre de la empresa: " + nombreEmpresa + "\n" + "Direccion de la empresa: " + direccionEmpresa + "\n"
+                + "Numero de la empresa: " + numeroEmpresa + "\n" + "NIT de la empresa: " + nitEmpresa + "\n";
     }
 }
 

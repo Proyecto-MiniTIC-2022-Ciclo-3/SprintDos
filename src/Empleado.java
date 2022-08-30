@@ -1,55 +1,56 @@
 public class Empleado  {
 
-    private String nombreempleado;
-    private String correoempleado;
-    private Empresa empresaempleado;
-    private String rol;
+    private String nombreEmpleado;
+    private String correoEmpleado;
+    private Empresa empresaEmpleado;
+    private String rolEmpleado;
 
     public Empleado(String nombreempleado, String correoempleado, Empresa empresaempleado, String rol) {
-        this.nombreempleado = nombreempleado;
-        this.correoempleado = correoempleado;
-        this.empresaempleado = empresaempleado;
-        this.rol = rol;
+        this.nombreEmpleado = nombreempleado;
+        this.correoEmpleado = correoempleado;
+        this.empresaEmpleado = empresaempleado;
+        this.rolEmpleado = rol;
     }
 
     public Empleado() {
     }
 
-    public String getNombreempleado() {
-        return nombreempleado;
+    public String getNombreEmpleado() {
+        return nombreEmpleado;
     }
 
-    public void setNombreempleado(String nombreempleado) {
-        this.nombreempleado = nombreempleado;
+    public void setNombreEmpleado(String nombreEmpleado) {
+        this.nombreEmpleado = nombreEmpleado;
     }
 
-    public String getCorreoempleado() {
-        return correoempleado;
+    public String getCorreoEmpleado() {
+        return correoEmpleado;
     }
 
-    public void setCorreoempleado(String correoempleado) {
-        this.correoempleado = correoempleado;
+    public void setCorreoEmpleado(String correoEmpleado) {
+        this.correoEmpleado = correoEmpleado;
     }
 
-    public Empresa getEmpresaempleado() {
-        return empresaempleado;
+    public Empresa getEmpresaEmpleado() {
+        return empresaEmpleado;
     }
 
-    public void setEmpresaempleado(Empresa empresaempleado) {
-        this.empresaempleado = empresaempleado;
+    public void setEmpresaEmpleado(Empresa empresaEmpleado) {
+        this.empresaEmpleado = empresaEmpleado;
     }
 
-    public String getRol() {
-        return rol;
+    public String getRolEmpleado() {
+        return rolEmpleado;
     }
 
-    public void setRol(String rol) {
-        this.rol = rol;
+    public void setRolEmpleado(String rolEmpleado) {
+        this.rolEmpleado = rolEmpleado;
     }
 
     @Override
     public String toString() {
-        return "Los datos ingresados del Empleado son:" + "\n" + "Nombre empleado: " + nombreempleado + "\n" + "Correo empleado: " + correoempleado + "\n" +
-                "Empresa empleado:" + "\n" + empresaempleado + "Rol: " + rol + "\n";
+        return "Los datos ingresados del Empleado son:" + "\n" + "Nombre empleado: " + nombreEmpleado + "\n" +
+                "Correo empleado: " + correoEmpleado + "\n" + "Empresa empleado:" + empresaEmpleado.getNombreEmpresa() +
+                "\n" + "Rol: " + rolEmpleado + "\n";
     }
 }

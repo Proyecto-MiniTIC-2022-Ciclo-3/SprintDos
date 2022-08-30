@@ -1,55 +1,55 @@
 public class MovimientoDeDinero {
 
-    private float montomovimiento;
-    private String tipomovimiento;
-    private String conceptomovimiento;
-    private Empleado encargadomovimiento;
+    private float montoMovimiento;
+    private String tipoMovimiento;
+    private String conceptoMovimiento;
+    private Empleado encargadoMovimiento;
 
     public MovimientoDeDinero(float montomovimiento, String tipomovimiento, String conceptomovimiento, Empleado encargadomovimiento) {
-        this.montomovimiento = montomovimiento;
-        this.tipomovimiento = tipomovimiento;
-        this.conceptomovimiento = conceptomovimiento;
-        this.encargadomovimiento = encargadomovimiento;
+        this.montoMovimiento = montomovimiento;
+        this.tipoMovimiento = tipomovimiento;
+        this.conceptoMovimiento = conceptomovimiento;
+        this.encargadoMovimiento = encargadomovimiento;
     }
 
     public MovimientoDeDinero() {
     }
 
-    public float getMontomovimiento() {
-        return montomovimiento;
+    public float getMontoMovimiento() {
+        return montoMovimiento;
     }
 
-    public void setMontomovimiento(float montomovimiento) {
-        this.montomovimiento = montomovimiento;
+    public void setMontoMovimiento(float montoMovimiento) {
+        this.montoMovimiento = montoMovimiento;
     }
 
-    public String getTipomovimiento() {
-        return tipomovimiento;
+    public String getTipoMovimiento() {
+        return tipoMovimiento;
     }
 
-    public void setTipomovimiento(String tipomovimiento) {
-        this.tipomovimiento = tipomovimiento;
+    public void setTipoMovimiento(String tipoMovimiento) {
+        this.tipoMovimiento = tipoMovimiento;
     }
 
-    public String getConceptomovimiento() {
-        return conceptomovimiento;
+    public String getConceptoMovimiento() {
+        return conceptoMovimiento;
     }
 
-    public void setConceptomovimiento(String conceptomovimiento) {
-        this.conceptomovimiento = conceptomovimiento;
+    public void setConceptoMovimiento(String conceptoMovimiento) {
+        this.conceptoMovimiento = conceptoMovimiento;
     }
 
-    public Empleado getEncargadomovimiento() {
-        return encargadomovimiento;
+    public Empleado getEncargadoMovimiento() {
+        return encargadoMovimiento;
     }
 
-    public void setEncargadomovimiento(Empleado encargadomovimiento) {
-        this.encargadomovimiento = encargadomovimiento;
+    public void setEncargadoMovimiento(Empleado encargadoMovimiento) {
+        this.encargadoMovimiento = encargadoMovimiento;
     }
 
     @Override
     public String toString() {
-        return "Movimientos de dinero" + "\n" + "Monto del movimiento: " + montomovimiento + "\n"+ "tipomovimiento: " + tipomovimiento + "\n" +
-                "Concepto del movimiento: " + conceptomovimiento + "\n" + "Encargado del movimiento: " + encargadomovimiento + "\n";
+        return "Movimientos de dinero" + "\n" + "Monto del movimiento: " + montoMovimiento + "\n"+ "tipomovimiento: " + tipoMovimiento + "\n" +
+                "Concepto del movimiento: " + conceptoMovimiento + "\n" + "Encargado del movimiento: " + encargadoMovimiento.getNombreEmpleado() + "\n";
     }
 }
