@@ -5,11 +5,11 @@ public class Empleado  {
     private Empresa empresaEmpleado;
     private String rolEmpleado;
 
-    public Empleado(String nombreempleado, String correoempleado, Empresa empresaempleado, String rol) {
-        this.nombreEmpleado = nombreempleado;
-        this.correoEmpleado = correoempleado;
-        this.empresaEmpleado = empresaempleado;
-        this.rolEmpleado = rol;
+    public Empleado(String nombreEmpleado, String correoEmpleado, Empresa empresaEmpleado, String rolEmpleado) {
+        this.nombreEmpleado = nombreEmpleado;
+        this.correoEmpleado = correoEmpleado;
+        this.empresaEmpleado = empresaEmpleado;
+        this.rolEmpleado = rolEmpleado;
     }
 
     public Empleado() {

@@ -7,11 +7,11 @@ public class Empresa {
     private int numeroEmpresa;
     private int nitEmpresa;
 
-    public Empresa(String nombre, String direccion, int numero, int nit) {
-        this.nombreEmpresa = nombre;
-        this.direccionEmpresa = direccion;
-        this.numeroEmpresa = numero;
-        this.nitEmpresa = nit;
+    public Empresa(String nombreEmpresa, String direccionEmpresa, int numeroEmpresa, int nitEmpresa) {
+        this.nombreEmpresa = nombreEmpresa;
+        this.direccionEmpresa = direccionEmpresa;
+        this.numeroEmpresa = numeroEmpresa;
+        this.nitEmpresa = nitEmpresa;
     }
 
     public Empresa() {

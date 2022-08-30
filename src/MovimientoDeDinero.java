@@ -5,11 +5,11 @@ public class MovimientoDeDinero {
     private String conceptoMovimiento;
     private Empleado encargadoMovimiento;
 
-    public MovimientoDeDinero(float montomovimiento, String tipomovimiento, String conceptomovimiento, Empleado encargadomovimiento) {
-        this.montoMovimiento = montomovimiento;
-        this.tipoMovimiento = tipomovimiento;
-        this.conceptoMovimiento = conceptomovimiento;
-        this.encargadoMovimiento = encargadomovimiento;
+    public MovimientoDeDinero(float montoMovimiento, String tipoMovimiento, String conceptoMovimiento, Empleado encargadoMovimiento) {
+        this.montoMovimiento = montoMovimiento;
+        this.tipoMovimiento = tipoMovimiento;
+        this.conceptoMovimiento = conceptoMovimiento;
+        this.encargadoMovimiento = encargadoMovimiento;
     }
 
     public MovimientoDeDinero() {
